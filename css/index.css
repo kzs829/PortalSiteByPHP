@@ -1,0 +1,192 @@
+.top-column, .second-column{
+  padding:10px;
+  padding-top: 30px;
+  max-width:1289px;
+  margin:0 auto;
+}
+
+.therd-column{
+  max-width:1289px;
+  margin:0 auto;
+}
+
+.top-bg{
+  min-height: 495px;
+  background: url('./image/1608382_m.jpg') no-repeat;
+  background-size: cover;
+  padding-top:150px;
+  padding-left:150px;
+}
+
+.second-bg{
+  min-height: 495px;
+  padding-bottom:20px;
+  text-align:center;
+  padding:60px 150px;
+}
+
+main::after{
+  content: "";
+  display: block;
+  clear: both;
+  height: 0px;
+}
+
+/*新着情報、コラム*/
+.newinfo,.blog{
+  width: 633px;
+  margin-bottom: 20px;
+  background-color: white;
+  float:left;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.newinfo{
+  min-height:240px;
+}
+
+.blog{
+  margin-left:20px;
+  min-height:328px;
+}
+
+.blog h2,.newinfo h2{
+  padding: 10px;
+  border-bottom:1px solid #ccc;
+  margin-bottom:0;
+}
+
+.newinfo-item,.blog-item{
+  list-style: none;
+  border-bottom: 1px solid rgba(217, 217, 217, 1);
+  text-decoration: none;
+  display: block;
+  transition: .5s;
+  padding:15px;
+}
+
+.newinfo-item{
+  height:40px;
+}
+
+.blog-item{
+  height:60px;
+}
+
+.newinfo-item:hover,.blog-item:hover{
+  background-color: #e6e6fa;
+  cursor: pointer;
+}
+
+.newinfo-item span,.blog-item span{
+  display: inline-block;
+}
+
+.newinfo-item p,.blog-item p{
+  display: inline-block;
+  color: #000000;
+}
+
+/*サイトの説明*/
+.discription{
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/*アクセス数*/
+.access-counter{
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+/*ツール紹介カード*/
+.tool_lineup_box{
+  border-radius: 10px;
+  padding: 20px 30px;
+  padding-top:80px;
+  background-color: white;
+  width: 40%;
+  height: 270px;
+  display: inline-block;
+  text-align:left;
+  vertical-align: top;
+  margin:10px;
+  position: relative;
+  line-height:28px;
+}
+
+.tool_lineup_box a{
+  text-decoration: underline;
+}
+
+/*スクロールアップ*/
+#page-top {
+  position: fixed;
+  top: 500px;
+  left: 1167px;
+}
+#page-top a {
+  background: #666;
+  color: #fff;
+  width: 70px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#page-top a:hover {
+  background: #999;
+}
+
+/*リボン*/
+.cp_ribbon08 {
+	line-height: 50px;
+	position: absolute;
+	top: 20px;
+	left: -8px;
+	width: 150px;
+	height: 50px;
+	padding-left: 15px;
+	color: #ffffff;
+	background:  rgba(71, 87, 149, .8);
+}
+.cp_ribbon08:before, .cp_ribbon08:after {
+	position: absolute;
+	content: '';
+}
+.cp_ribbon08:before {
+	top: -8.5px;
+	left: 0.1px;
+	width: 0;
+	height: 0;
+	border-bottom: 9px solid  rgba(71, 87, 149, 1);
+	border-left: 9px solid transparent;
+}
+.cp_ribbon08:after {
+	right: -14.5px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 15px solid rgba(71, 87, 149, .8);
+}
+
+/*東京事業所専用*/
+.tokyo-label{
+  width:1000px;
+  height:150px;
+  background-color:white;
+  border-radius:10px;
+  border: 1px solid rgba(127, 127, 127, .3);
+  margin:0 auto 80px auto;
+  transition:.5s;
+}
+
+.tokyo-label:hover{
+  opacity:.5;
+  cursor:pointer;
+}
